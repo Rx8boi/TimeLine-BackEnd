@@ -23,5 +23,6 @@ Created with react-router
   ============================================================================
   This Repository is Front-End of Applications
   
-  For Back-End [RAILS API] Please visit:
+  For Front End [REACT/REDUX app] 
+  Please visit:
   https://github.com/Rx8boi/TimeLine
