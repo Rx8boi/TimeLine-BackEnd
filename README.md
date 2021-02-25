@@ -21,8 +21,10 @@ Created with react-router
   *due to specifications of Flatiron's Final Project list may expand*
   
   ============================================================================
-  This Repository is Front-End of Applications
   
-  For Front End [REACT/REDUX app] 
+  #This Repository is Back-End of Application
+  
+  #For Front End [REACT/REDUX app] 
   Please visit:
+  
   https://github.com/Rx8boi/TimeLine
