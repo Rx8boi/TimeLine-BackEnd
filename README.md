@@ -22,9 +22,9 @@ Created with react-router
   
   ============================================================================
   
-  #This Repository is Back-End of Application
+  This Repository is Back-End of Application
   
-  #For Front End [REACT/REDUX app] 
+  For Front End [REACT/REDUX app] 
   Please visit:
   
   https://github.com/Rx8boi/TimeLine
