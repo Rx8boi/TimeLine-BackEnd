@@ -15,7 +15,7 @@ Event.create([
 
     date: "01/02/2020",
     title: "Moved to Austin",
-    type: "life event",
+    event_type: "life event",
     summary: "did stuff",
     skills_learned: "lorem ",
 },
@@ -24,7 +24,7 @@ Event.create([
 
     date: "01/02/2021",
     title: "moved to el paso",
-    type: "life event",
+    event_type: "life event",
     summary: "did things",
     skills_learned: "nada ",
 },
@@ -33,7 +33,7 @@ Event.create([
 
     date: "01/10/2020",
     title: "worked at VA",
-    type: "work history",
+    event_type: "work history",
     summary: "did things for money",
     skills_learned: "how to work",
 },
@@ -42,7 +42,7 @@ Event.create([
 
     date: "11/02/2010",
     title: "worked at goodlooking",
-    type: "work history",
+    event_type: "work history",
     summary: "got paid",
     skills_learned: "how to not job search",
 },
@@ -51,7 +51,7 @@ Event.create([
 
     date: "09/12/2018",
     title: "Flatiron Bootcamp",
-    type: "education",
+    event_type: "education",
     summary: "got some coding skills",
     skills_learned: "lots of things",
 },
