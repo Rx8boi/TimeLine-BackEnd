@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_02_26_035736) do
+ActiveRecord::Schema.define(version: 2021_02_28_014403) do
 
   create_table "events", force: :cascade do |t|
     t.string "event_type"
@@ -20,6 +20,36 @@ ActiveRecord::Schema.define(version: 2021_02_26_035736) do
     t.datetime "updated_at", precision: 6, null: false
     t.date "date"
     t.string "title"
+  end
+
+  create_table "infos", force: :cascade do |t|
+    t.string "name"
+    t.string "title"
+    t.string "description"
+    t.string "email"
+    t.string "address"
+    t.string "github"
+    t.string "linkedin"
+    t.string "website"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "jobs", force: :cascade do |t|
+    t.string "title"
+    t.date "start"
+    t.date "end"
+    t.boolean "current"
+    t.string "description"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "skills", force: :cascade do |t|
+    t.string "skill_type"
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
 end

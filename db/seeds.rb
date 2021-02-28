@@ -56,3 +56,15 @@ Event.create([
     skills_learned: "lots of things",
 },
 ])
+
+Job.create ([
+
+{
+    #1
+    title: "GoodLooking",
+    start: 11/01/2020,
+    end: 03/01/2020,
+    current: false,
+    description: "software engineer"
+},
+])
