@@ -40,7 +40,7 @@ Event.create([
 
 {  #4
 
-    date: "02/17/2021",
+    date: "02/07/2021",
     title: "Flatiron Graduation",
     event_type: "Education",
     summary: "Utilized culmination of Flatiron Education to create final project & graduated",
@@ -58,7 +58,7 @@ Event.create([
 
 {  #6
 
-    date: "03/19/2021",
+    date: "03/10/2021",
     title: "Deletion Test",
     event_type: "Test",
     summary: "Click the backspace icon to delete this card",
